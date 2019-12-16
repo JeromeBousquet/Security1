@@ -28,14 +28,17 @@ DEPLOY SECURE APPS (part one)
 51.6 : Utiliser git pour uploader votre application, heroku se chargera automatiquement de la redéployer (git init/add/commit/remote/push...) puis vérifier
 
 *Nous souhaitons dorénavant, travailler avec le SGBD Postegresql, cela ne change rien à notre manière habituelle de travailler*
+
 52.1 : Ajouter la dépendance à Maven dans votre projet (org.postgresql...)
 52.2 : Ajouter à votre projet une classe Company (id + name), décorer là pour en faire une entité Jpa
 52.3 : Ajouter l'interface CompanyRepository puis des instances de Company dans votre appli
 52.4 : Enfin, Ajouter dans votre controller une méthode qui renvoi toutes les Company en base
 52.5 : Ajuster votre fichier application.properties
+
 *NB -> Ce n'est pas indispensable ici mais vous pouvez tester votre application localement, il faudra juste installer Postegresql*
 
 *De retour sur votre console de gestion en ligne heroku*
+
 53.1 : Sur votre tableau de bord (dashboard), ajouter à votre appli en ligne un sgbd (configure add-ons)
 53.2 : Mettre à jour les changements (git init/add/commit/push...) puis tester
 
@@ -50,20 +53,24 @@ Nous allons réaliser dans un premier temps la partie backend d'une application 
 - Un administrateur connecté (USER + ADMIN), pourra en plus, ajouter des taches
 
 *De retrour sur votre Ide préféré*
+
 54.1 Créer un projet avec les dependances suivantes habituelles : DevTools, Lombok, Spring data Jpa, H2, PostegreSql (mettre en commentaire), Spring Security(en commentaire), Spring Web. Puis ajouter manuellement Jwt en recherchant "JJwt + maven dependancy"
 54.2 Crée l'entité Task (entities) puis l'interface Jpa associé (dao)
 54.3 Mettre en oeuvre un controller rest (web) qui renvoi la liste des taches puis l'ajout d'une tache
 54.4 Tester avec l'outil ARC (advanced Rest Client)
 
 *Personnaliser la configuration de Spring Security (quasiment comme dans ma banque en ligne)*
+
 55.1 Ajouter une classe (security) SecurityConfig (enlever les commentaires dans pom.xml) avec d'abord une authentification en mémoire.
 55.2 Mise en oeuvre d'un formulaire d'authentification fourni par Spring 
 55.3 Indiquer à Spring que toutes les ressources de l'appli necessite une authentification
 
 *Jusqu'ici Spring utilise la securité basée sur les cookies, sur le formulaire d'authentification, il génère un token(csrf), les autres applis ne pourront pas en faire autant, de plus nous allons utiliser Jwt ici aussi il faut donc :*
+
 56.1 Désactiver la génération automatique du synchronized token
 
 *Nous avons utilisé l'authentification en mémoire (inMemoryAuthentication), ici nous utiliserons l'authentification basée sur une couche service*
+
 57.1 Dans votre classe SecurityConfig, remplacer le système actuel (en mémoire) par un service dédié (UserDetailService) que vous devrez donc implémenter
 57.2 Utiliser pour l'encodage du mot de passe saisi par l'utilisateur BCryptPasswordEncoder 
 57.3 Ajouter les entités AppRole et UserRole avec leurs interfaces Jpa afin de gérer en base des utilisateurs avec des rôles respectifs
@@ -87,6 +94,7 @@ Adieu authentification basée sur les sessions (références), bienvenue à l'au
 58.1 Désactiver l'authentification basée sur les sessions -> demander à Spring d'utiliser le mode stateless
 
 *étape 1 : première connection donc génération d'un token*
+
 58.2 Ajouter le FILTRE JWT D'AUTHENTIFICATION (security) avec les 2 méthodes d'authentification (attempt & success)
 
 58.3 Tester en vous connectant puis récupérer le token 
@@ -94,6 +102,7 @@ Adieu authentification basée sur les sessions (références), bienvenue à l'au
 58.4 Visualiser(copier/coller) le contenu sur jwt.io, pratique pour voir les roles, n'est-ce pas ?
 
 *étape 2 : deuxième connection donc vérification du token*
+
 58.5 Mise en oeuvre d'un FILTRE JWT D'AUTHORISATION qui recevra systhématiquement toutes les requêtes pour vérification avant orientation
 
 
