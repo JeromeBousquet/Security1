@@ -1,6 +1,6 @@
 DEPLOY SECURE APPS (part one)
 ===
-![center](/home/elbabili/Boostnote/notes/chateau.jpg)
+![center](/chateau.jpg)
 
 <h3>Lundi</h3> 
 **Retour alternance**
