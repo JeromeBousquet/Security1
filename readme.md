@@ -3,7 +3,9 @@ DEPLOY SECURE APPS (part one)
 ![center](/chateau.jpg)
 
 <h3>Lundi</h3> 
+
 **Retour alternance**
+
 **Veille war, jar, scripts shell**
  
 **Monday Algo live coding :** d'abord on écrit un prog en français, puis on le traduit en anglais, puis dans un langage de prog de votre choix et on teste le tout !	
@@ -13,9 +15,11 @@ DEPLOY SECURE APPS (part one)
 **Réaliser un script shell pour démarrer l'appli**
 
 <h3>Mardi</h3> 
+
 **Veille PaaS, SaaS, DaaS, IaaS...Heroku**
 
 **Réaliser une application simple de gestion de noms d'entreprises puis déployer là sur Heroku**
+
 51.1 : Créer un compte sur heroku.com (sans donner votre CB :) 
 51.2 : Installer Heroku sur votre machine
 51.3 : Créer une appli spring boot simple avec un controller rest qui affiche "bonjour" puis tester localement d'abord
@@ -36,9 +40,11 @@ DEPLOY SECURE APPS (part one)
 53.2 : Mettre à jour les changements (git init/add/commit/push...) puis tester
 
 <h3>Mercredi</h3> 
+
 **Veille Failles sécurité + solutions**
 
 **Application de gestion de taches : MISE EN OEUVRE DE LA COUCHE SPRING SECURITY**
+
 Nous allons réaliser dans un premier temps la partie backend d'une application de gestion de taches consistant à consulter et ajouter des taches en fonction des roles (User ou Admin) des utilisateurs connectés, et ce en utilisant spring security et jwt.
 - Respectivement, un utilisateur connecté (USER), pourra consulter la liste des taches 
 - Un administrateur connecté (USER + ADMIN), pourra en plus, ajouter des taches
@@ -71,9 +77,11 @@ Nous allons réaliser dans un premier temps la partie backend d'une application 
 -> Sécurité oblige, trouver un moyen de ne pas renvoyer le mot de pass même crypté après un enregistrement, tout en gardant sous le bras le mot de pass pour confirmation de saisie !!!
 
 <h3>Jeudi</h3>
+
 **Veille JWT et Keycloak**
 
 **MISE EN OEUVRE DE LA COUCHE JWT**
+
 Adieu authentification basée sur les sessions (références), bienvenue à l'authentification basée sur les tokens(valeurs)**
 
 58.1 Désactiver l'authentification basée sur les sessions -> demander à Spring d'utiliser le mode stateless
@@ -90,6 +98,7 @@ Adieu authentification basée sur les sessions (références), bienvenue à l'au
 
 
 <h3>Vendredi</h3> 
+
 **Veille réussir sa présentation orale**
 
 Terminer tous les travaux de la semaine et les envoyer sur github puis transferer à vos tuteurs(rices) et formateur
