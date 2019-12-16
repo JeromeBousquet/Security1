@@ -14,7 +14,9 @@ DEPLOY SECURE APPS (part one)
 
 **Idem pour le front**
 
-**Réaliser un script shell pour démarrer l'appli**
+**Réaliser un script shell pour démarrer l'appli côté back**
+
+Bonus : ajouter dans votre script un moyen d'ajouter les répertoires ecom puis products s'ils existent pas puis tester
 
 <h3>Mardi</h3> 
 
