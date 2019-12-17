@@ -56,6 +56,8 @@ Bonus : ajouter dans votre script un moyen de créer les répertoires ecom puis 
 
 53.2 : Mettre à jour les changements (git init/add/commit/push...) puis tester
 
+**Bonus : Refaire de même avec la 1ère version de l'appli de E-Commerce puis lancer votre front avec l'url du back en ligne**
+
 <h3>Mercredi</h3> 
 
 **Veille Failles sécurité + solutions**
