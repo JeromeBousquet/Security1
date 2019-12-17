@@ -16,7 +16,7 @@ DEPLOY SECURE APPS (part one)
 
 **Réaliser un script shell pour démarrer l'appli côté back**
 
-Bonus : ajouter dans votre script un moyen d'ajouter les répertoires ecom puis products s'ils existent pas puis tester
+Bonus : ajouter dans votre script un moyen de créer les répertoires ecom puis products s'ils existent pas puis tester, tenter de rendre générique votre script afin qu'il soit executable dans n'importe quel serveur
 
 <h3>Mardi</h3> 
 
