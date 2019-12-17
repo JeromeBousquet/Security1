@@ -136,11 +136,13 @@ Adieu authentification basée sur les sessions (références), bienvenue à l'au
 
 <h3>Vendredi</h3> 
 
-**Veille réussir sa présentation orale**
+**Veille sur Google Cloud + réussir sa présentation orale**
 
 Terminer tous les travaux de la semaine et les envoyer sur github puis transferer à vos tuteurs(rices) et formateur
 
-**Dossier professionnel** 
+**Retour sur les anciens projets et aux problématiques associées**
+
+**Dossier professionnel**
 
 **Dossier projet**
 
