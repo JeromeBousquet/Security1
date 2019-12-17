@@ -159,7 +159,7 @@ RESSOURCES
 
 [Tuto Spring Boot App with Heroku](https://www.youtube.com/watch?v=KDK5xXPJVIg)
 
-[Comment se protéger contre les failles de sécurité](https://openclassrooms.com/en/courses/2091901-protegez-vous-efficacement-contre-les-failles-web/2680162-nayez-jamais-confiance)
+[Comment se protéger contre les failles de sécurité](https://adrien.pessu.net/post/cors_xss_csrf_sqlinjection)
 
 [Spring Security with Jwt](https://youtu.be/UspQ6arrMiw)
 
