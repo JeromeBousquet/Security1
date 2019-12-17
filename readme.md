@@ -56,7 +56,7 @@ Bonus : ajouter dans votre script un moyen de créer les répertoires ecom puis 
 
 53.2 : Mettre à jour les changements (git init/add/commit/push...) puis tester
 
-**Bonus : Refaire de même avec la 1ère version de l'appli de E-Commerce puis lancer votre front avec l'url du back en ligne**
+**Bonus : Refaire de même avec la 1ère version de l'appli E-Commerce (ou banque) puis lancer votre front avec l'url du back en ligne**
 
 <h3>Mercredi</h3> 
 
@@ -158,6 +158,8 @@ RESSOURCES
 [Introduction aux scripts shell](https://openclassrooms.com/en/courses/43538-reprenez-le-controle-a-laide-de-linux/42867-introduction-aux-scripts-shell)
 
 [Tuto Spring Boot App with Heroku](https://www.youtube.com/watch?v=KDK5xXPJVIg)
+
+[Comment se protéger contre les failles de sécurité](https://openclassrooms.com/en/courses/2091901-protegez-vous-efficacement-contre-les-failles-web/2680162-nayez-jamais-confiance)
 
 [Spring Security with Jwt](https://youtu.be/UspQ6arrMiw)
 
