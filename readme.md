@@ -150,6 +150,8 @@ Terminer tous les travaux de la semaine et les envoyer sur github puis transfere
 
 **Programme vacances**
 
+Bonus : Réaliser ou Prendre un projet spring boot et utiliser Keycloak pour le sécuriser
+
 RESSOURCES
 ===
 
